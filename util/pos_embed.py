@@ -2,7 +2,7 @@ import numpy as np
 
 import torch
 
--
+
 def get_2d_sincos_pos_embed(embed_dim, grid_size, cls_token=False):
     """
     grid_size: int of the grid height and width
